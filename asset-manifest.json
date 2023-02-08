@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/react-sample-todo/static/css/main.66922304.css",
+    "main.js": "/react-sample-todo/static/js/main.af7ca465.js",
+    "index.html": "/react-sample-todo/index.html",
+    "main.66922304.css.map": "/react-sample-todo/static/css/main.66922304.css.map",
+    "main.af7ca465.js.map": "/react-sample-todo/static/js/main.af7ca465.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.66922304.css",
+    "static/js/main.af7ca465.js"
+  ]
+}
