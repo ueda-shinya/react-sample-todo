@@ -1,4 +1,5 @@
 {
+  "homepage": "https://ueda-shinya.github.io/react-sample-todo/",
   "name": "react-sample-todo",
   "version": "0.1.0",
   "private": true,
@@ -16,7 +17,8 @@
     "start": "react-scripts start",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "build": "react-scripts build"
+    "build": "cross-env PUBLIC_URL=/react-sample-todo react-scripts build",
+    "deploy": "npm run build && gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [

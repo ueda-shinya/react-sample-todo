@@ -1,12 +1,11 @@
 import React from 'react';
 
 const Todo = ({ todo, toggleTodo }) => {
-  
   const handleTodoClick = () => {
     toggleTodo(todo.id);
   };
   return (
-    <div>
+    <div class="list">
       <label>
         <input
           type="checkbox"
@@ -15,7 +14,8 @@ const Todo = ({ todo, toggleTodo }) => {
           onChange={handleTodoClick}
         />
       </label>
-      {todo.name}
+      <div class="list_name">{todo.name}</div>
+      <div class="list_task">{todo.task}</div>
     </div>
   );
 };

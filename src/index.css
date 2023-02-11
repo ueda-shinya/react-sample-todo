@@ -7,14 +7,56 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-.job{
+.list {
+  display: flex;
   width: 100%;
 }
-button{
+.list_title {
+  width: 100%;
+  text-align: center;
+}
+.title_area {
+  width: auto;
+  display: flex;
+  margin-left: 20px;
+}
+.list_name {
+  width: 40%;
+}
+.list_task {
+  width: 40%;
+}
+.task_title {
+  width: 100%;
+  margin-top: 10px;
+  padding-top: 10px;
+  text-align: center;
+  border-top: 2px solid;
+}
+.newtask {
+  width: 100%;
+  display: flex;
+  margin-top: 10px;
+}
+.name_area,
+.task_area {
+  display: flex;
+  width: 50%;
+}
+.newtask p {
+  width: auto;
+  margin: 2px;
+  text-align: right;
+}
+.newtask input {
+  width: 70%;
+}
+
+button {
   width: 40%;
   margin: 30px 5%;
 }
-.remain{
+.remain {
   text-align: center;
 }
 
